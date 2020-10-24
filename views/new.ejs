@@ -1,0 +1,53 @@
+<%- include('partials/header'); -%>
+
+<div class="ui text main container segment">
+<div class="ui header huge">Create a New Blog </div>
+<form  class="ui form" action="/blogs" method="POST">
+<div class="field">
+    <label>Title</label>
+    <input type=text placeholder="Enter the name" name="name">
+</div>
+
+<div class="field">
+    <label>Image</label>
+    <input type=text placeholder="url for image" name="image">
+</div>
+<div class="field">
+    <label>Blog-Body</label>
+    <textarea name="body" ></textarea>
+</div>    
+
+<button class="ui inverted blue button">Submit</button>
+
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <div class="ui container">
+<h3 class="ui block header huge">Create a New Blog </h3>
+<form  class="ui form" action="/blogs" method="POST">
+<input type=text placeholder="Enter the name" name="name">
+<input type=text placeholder="url for image" name="image">
+<label>Description</label>
+    <textarea></textarea>
+   
+
+    <button class="ui inverted blue button">Submit</button>
+
+</form>
+
+
+
+</div> -->
+
+
+
+<%- include('partials/footer'); -%>

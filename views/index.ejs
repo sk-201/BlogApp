@@ -1,0 +1,18 @@
+<%- include('partials/header'); -%>
+
+<% blog.forEach(function(blog){ %>
+    <img src="<%=blog.image %>" class="img-fluid">
+    <div class="caption"><%= blog.name %></div>
+    <div class="caption"><%= blog.body %></div>
+    <div class="caption"><%= blog.created %></div>
+
+<% }) %>
+
+
+
+
+
+
+
+
+<%- include('partials/footer'); -%>

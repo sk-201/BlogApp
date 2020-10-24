@@ -1,0 +1,1 @@
+A blog App where you can see other people blogs,comment on them as well as add your blogs.
